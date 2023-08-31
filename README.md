@@ -2,6 +2,16 @@
 
 A simple node package for extracting audio from youtube
 
+### Getting started
+
+Install using npm
+
+```bash
+npm i yt-audio-extractor
+```
+
+### Usage
+
 ```javascript
 import extractAudio from "yt-audio-extractor";
 
