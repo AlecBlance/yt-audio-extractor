@@ -1,6 +1,6 @@
 # AudioTube
 
-A node package for getting audio stream from youtube.
+A simple node package for extracting audio from youtube
 
 ```javascript
 import audiotube from "audiotube";
