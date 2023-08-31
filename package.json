@@ -1,5 +1,5 @@
 {
-  "name": "audiotube",
+  "name": "yt-audio-extractor",
   "version": "1.0.0",
   "description": "A simple node package for extracting audio from youtube",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlecBlance/AudioTube.git"
+    "url": "git+https://github.com/AlecBlance/yt-audio-extractor.git"
   },
   "keywords": [
     "youtube",
@@ -21,9 +21,9 @@
   "author": "Alec Blance",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlecBlance/AudioTube/issues"
+    "url": "https://github.com/AlecBlance/yt-audio-extractor/issues"
   },
-  "homepage": "https://github.com/AlecBlance/AudioTube#readme",
+  "homepage": "https://github.com/AlecBlance/yt-audio-extractor#readme",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "fluent-ffmpeg": "^2.1.2",
