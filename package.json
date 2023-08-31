@@ -1,0 +1,33 @@
+{
+  "name": "audiotube",
+  "version": "1.0.0",
+  "description": "A node package for getting audio stream from youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlecBlance/AudioTube.git"
+  },
+  "keywords": [
+    "youtube",
+    "audio",
+    "stream",
+    "music",
+    "sound",
+    "extract"
+  ],
+  "author": "Alec Blance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlecBlance/AudioTube/issues"
+  },
+  "homepage": "https://github.com/AlecBlance/AudioTube#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "type": "module"
+}
