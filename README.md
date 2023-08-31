@@ -1,11 +1,11 @@
-# AudioTube
+# yt-audio-extractor
 
 A simple node package for extracting audio from youtube
 
 ```javascript
-import audiotube from "audiotube";
+import extractAudio from "yt-audio-extractor";
 
 app.get("/", (req, res) => {
-  audiotube("https://www.youtube.com/watch?v=dQw4w9WgXcQ").pipe(res);
+  extractAudio("https://www.youtube.com/watch?v=dQw4w9WgXcQ").pipe(res);
 });
 ```
