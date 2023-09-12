@@ -19,3 +19,9 @@ app.get("/", (req, res) => {
   extractAudio("https://www.youtube.com/watch?v=dQw4w9WgXcQ").pipe(res);
 });
 ```
+
+### Example
+
+`npm run example`
+
+A simple example without express
